@@ -1,0 +1,927 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.full-container{
+    background-color: #C2E5F5;
+    width:100vw;
+    height:100vh;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    padding: 10px;
+    
+    
+}
+.full-container .first-second{
+    display: grid;
+    grid-auto-flow: column;
+    gap:20px;
+
+}
+.full-container .third-fourth{
+    display: grid;
+    grid-auto-flow: column;
+    gap:20px;
+
+}
+.full-container .first-second-third-fourth{
+    display: grid;
+    grid-auto-flow: row;
+    gap:20px;
+
+}
+.full-container .first-second .quotation{
+    margin-left: 400px;
+    z-index: 1;
+    
+}
+
+
+.full-container
+.first-person{
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    color:white;
+    background: #733fc8;
+
+   
+}
+.full-container
+.first-person .pesron-details{
+    display: flex;
+    margin-top: -100px;
+}
+.full-container
+.first-person .pesron-details img{
+    border-radius: 50%;
+    border:2px solid white;
+
+}
+.full-container
+.first-person .pesron-details .name p{
+    position: relative;
+    top:10px;
+    left:10px;
+    color: white;
+}
+.full-container
+.first-person .pesron-details .name .person-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.full-container
+.first-person .review-one{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.full-container
+.first-person .review-two{
+    color: white ;
+    font-weight: 200;
+
+}
+
+/*second person*/
+.full-container
+.second-person{
+    width:300px;
+    height:300px;
+    background-color: #49556B;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+
+
+   
+}.full-container
+.second-person .pesron-details{
+    display: flex;
+}
+
+.full-container
+.second-person .pesron-details img{
+    border-radius: 50%;
+    border:2px solid white;
+
+}
+.full-container
+.second-person .pesron-details .name p{
+    position: relative;
+    top:10px;
+    left:10px;
+    color: white;
+}
+.full-container
+.second-person .pesron-details .name .person-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.full-container
+.second-person .review-one{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.full-container
+.second-person .review-two{
+    color: white ;
+    font-weight: 200;
+
+}
+
+/*third person*/
+.full-container
+.third-person{
+    width:300px;
+    height:300px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  20px 20px 50px #d9d9d9;
+  
+    color:black;
+}.full-container
+.third-person .pesron-details{
+    display: flex;
+}
+
+.full-container
+.third-person .pesron-details img{
+    border-radius: 50%;
+    border:2px solid white;
+
+}
+.full-container
+.third-person .pesron-details .name p{
+    position: relative;
+    top:10px;
+    left:10px;
+    
+}
+.full-container
+.third-person .pesron-details .name .person-name{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.full-container
+.third-person .review-one{
+    font-size: 18px;
+    font-weight: bold;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.full-container
+.third-person .review-two{
+    
+    font-weight: 200;
+    
+
+}
+/*fourth person*/
+.full-container
+.fourth-person{
+    width: 600px;
+    height: 300px;
+    background-color: #18202D;
+    padding: 20px;
+    border-radius: 10px;
+    color:white;
+}.full-container
+.fourth-person .pesron-details{
+    display: flex;
+}
+
+.full-container
+.fourth-person .pesron-details img{
+    border-radius: 50%;
+    border:2px solid white;
+
+}
+.full-container
+.fourth-person .pesron-details .name p{
+    position: relative;
+    top:10px;
+    left:10px;
+    color: white;
+}
+.full-container
+.fourth-person .pesron-details .name .person-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.full-container
+.fourth-person .review-one{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.full-container
+.fourth-person .review-two{
+    color: white ;
+    font-weight: 200;
+    
+
+}
+
+
+/*fifth person*/
+.full-container
+.fifth-person{
+    width: 300px;
+    height: 100%;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow:  20px 20px 50px #d9d9d9;
+    
+
+    
+}.full-container
+.fifth-person .pesron-details{
+    display: flex;
+}
+
+.full-container
+.fifth-person .pesron-details img{
+    border-radius: 50%;
+    border:2px solid white;
+
+}
+.full-container
+.fifth-person .pesron-details .name p{
+    position: relative;
+    top:10px;
+    left:10px;
+    
+}
+.full-container
+.fifth-person .pesron-details .name .person-name{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.full-container
+.fifth-person .review-one{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.full-container
+.fifth-person .review-two{
+   
+    font-weight: 200;
+    
+
+}
+
+@media(max-width:1025px){
+    .full-container{
+        max-width:100vw;
+        max-height: 100vh;
+
+    }
+   
+    .full-container
+.first-person{
+    width: 550px;
+    height: 260px;
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+    background: #733fc8;
+    margin-left: 5px;
+    
+
+   
+}
+.full-container
+.second-person{
+    width: 240px;
+    height: 260px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #49556B;
+    color:white;
+        
+    
+
+   
+}
+.full-container
+.second-person .pesron-details img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:2px solid white;
+
+}
+
+.full-container
+.first-person .pesron-details{
+    display: flex;
+    margin-top: -110px;
+}
+.full-container
+.second-person .pesron-details{
+    display: flex;
+    
+}
+.full-container
+.second-person .pesron-details .name p{
+    position: relative;
+    top:5px;
+    left:10px;
+    color: white;
+}
+.full-container
+.second-person .review-one{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.full-container
+.first-person .pesron-details img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:2px solid white;
+
+}
+.full-container
+.first-person .pesron-details .name p{
+    position: relative;
+    top:5px;
+    left:10px;
+ 
+}
+
+.full-container
+.first-person .review-one{
+    font-size: 15px;
+    font-weight: bold;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.full-container
+.second-person .review-one{
+    font-size: 15px;
+    font-weight: bold;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.full-container
+.first-person .review-two{
+    color: white ;
+   
+}
+.full-container
+.fourth-person{
+    width: 550px;
+    height: 260px;
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+    background-color: #18202D;
+   
+}
+
+.full-container
+.fourth-person .pesron-details{
+display: flex;
+
+}
+.full-container
+.fourth-person .pesron-details img{
+width:50px;
+height:50px;
+border-radius: 50%;
+border:2px solid white;
+
+}
+.full-container
+.fourth-person .pesron-details .name p{
+position: relative;
+top:5px;
+left:10px;
+
+}
+.full-container
+.fourth-person .review-one{
+font-size: 15px;
+font-weight: bold;
+
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.full-container
+.fourth-person .review-one{
+font-size: 15px;
+font-weight: bold;
+
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.full-container
+.third-person{
+    width: 240px;
+    height: 260px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow:  20px 20px 50px #d9d9d9;
+    margin-left: 5px;
+}
+
+
+.full-container
+.third-person .pesron-details img{
+width:50px;
+height:50px;
+border-radius: 50%;
+border:2px solid white;
+
+}
+.full-container
+.third-person .pesron-details .name p{
+    position: relative;
+    top:5px;
+    left:10px;
+   
+}
+.full-container
+.third-person .review-one{
+font-size: 15px;
+font-weight: bold;
+
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.full-container
+.third-person .review-one{
+font-size: 15px;
+font-weight: bold;
+
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.full-container .first-second{
+    display: grid;
+    grid-auto-flow: column;
+    gap:5px;
+
+}
+.full-container .third-fourth{
+    display: grid;
+    grid-auto-flow: column;
+    gap:5px;
+
+}
+.full-container .first-second-third-fourth{
+    display: grid;
+    grid-auto-flow: row;
+    gap:5px;
+
+}
+.full-container
+.fifth-person{
+    width: 260px;
+    height: 570px;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow:  20px 20px 50px #d9d9d9;
+    
+
+    
+}.full-container
+.fifth-person .pesron-details{
+    display: flex;
+}
+
+.full-container
+.fifth-person .pesron-details img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:2px solid white;
+
+}
+.full-container
+.fifth-person .pesron-details .name p{
+    position: relative;
+    top:5px;
+    left:10px;
+    
+}
+.full-container
+.fifth-person .pesron-details .name .person-name{
+    
+    font-weight: bold;
+   
+}
+.full-container
+.fifth-person .review-one{
+    font-size: 15px;
+    font-weight: bold;
+   
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.full-container
+.fifth-person .review-two{
+   
+    font-weight: 200;
+    
+
+}
+}
+@media(max-width:400px){
+    .full-container{
+        background-color: #C2E5F5;
+        width:100vw;
+        height:100vh;
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        
+        
+    }
+    .full-container .first-second{
+        display: grid;
+        grid-auto-flow: row;
+        gap:10px;
+    
+    }
+    .full-container .third-fourth{
+        display: grid;
+        grid-auto-flow: row;
+        gap:10px;
+    
+    }
+    .full-container .first-second .quotation{
+        margin-left: 150px;
+        z-index: 1;
+        
+    }
+    
+.full-container
+.first-person{
+    width: 300px;
+    height: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    color:white;
+    background: #733fc8;
+    margin-left: 150px;
+
+   
+}
+.full-container
+.first-person .pesron-details img{
+   
+    
+    border-radius: 50%;
+    border:2px solid white;
+
+}
+.full-container
+.first-person .pesron-details .name p{
+    position: relative;
+    top:5px;
+    left:10px;
+    color: white;
+}
+.full-container
+.first-person .pesron-details .name .person-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.full-container
+.first-person .review-one{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.full-container
+.first-person .review-two{
+    color: white ;
+    font-weight: 200;
+    line-height:22px;
+
+}
+
+.full-container
+.second-person{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    color:white;
+    background-color: #49556B;
+    margin-left: 150px;
+
+    
+
+
+   
+}.full-container
+.second-person .pesron-details{
+    display: flex;
+}
+
+.full-container
+.second-person .pesron-details img{
+   
+    border-radius: 50%;
+    border:2px solid white;
+}
+.full-container
+.second-person .pesron-details .name p{
+    position: relative;
+    top:5px;
+    left:10px;
+
+}
+.full-container
+.second-person .pesron-details .name .person-name{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.full-container
+.second-person .review-one{
+    font-size: 20px;
+    font-weight: bold;
+ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.full-container
+.second-person .review-two{
+    
+    font-weight: 200;
+    line-height:20px;
+
+
+}
+/*third person*/
+.full-container
+.third-person{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    color:black;
+    background-color: #49556B;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    box-shadow:  20px 20px 50px #d9d9d9;
+
+
+}.full-container
+.third-person .pesron-details{
+    display: flex;
+}
+
+.full-container
+.third-person .pesron-details img{
+    
+    border-radius: 50%;
+    border:2px solid white;
+
+}
+.full-container
+.third-person .pesron-details .name p{
+    position: relative;
+    top:5px;
+    left:10px;
+   
+}
+.full-container
+.third-person .pesron-details .name .person-name{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.full-container
+.third-person .review-one{
+    font-size: 20px;
+    font-weight: bold;
+ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.full-container
+.third-person .review-two{ 
+    font-weight: 200;
+    line-height:20px;
+    
+
+}
+/*fourth person*/
+.full-container
+.fourth-person{
+    width: 300px;
+    height: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    color:white;
+    background-color: #18202D;
+    margin-left: 150px;
+}.full-container
+.fourth-person .pesron-details{
+    display: flex;
+}
+
+.full-container
+.fourth-person .pesron-details img{
+    border-radius: 50%;
+    border:2px solid white;
+
+}
+.full-container
+.fourth-person .pesron-details .name p{
+    position: relative;
+    top:5px;
+    left:10px;
+    color: white;
+}
+.full-container
+.fourth-person .pesron-details .name .person-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.full-container
+.fourth-person .review-one{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.full-container
+.fourth-person .review-two{
+    font-weight: 200;
+    line-height:20px;
+
+}
+.full-container
+.fifth-person{
+    width: 300px;
+    height: max-content;
+    padding: 30px;
+    border-radius: 10px;
+    color:black;
+    background-color: white;
+    margin-left: 150px;
+    box-shadow:  20px 20px 50px #d9d9d9;
+
+}.full-container
+.fifth-person .pesron-details{
+    display: flex;
+}
+
+.full-container
+.fifth-person .pesron-details img{
+    border-radius: 50%;
+    border:2px solid white;
+
+}
+.full-container
+.fifth-person .pesron-details .name p{
+    position: relative;
+    top:5px;
+    left:10px;
+    color: white;
+}
+.full-container
+.fifth-person .pesron-details .name .person-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.full-container
+.fifth-person .review-one{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.full-container
+.fifth-person .review-two{
+    font-weight: 200;
+    line-height:20px;
+
+}
+.full-container .fifth-person{
+    margin: 20px auto;
+}
+.full-container .fourth-person{
+    margin: 20px auto;
+}
+.full-container .third-person{
+    margin: 20px auto;
+}
+.full-container .second-person{
+    margin: 20px auto;
+}
+.full-container .first-person{
+    margin: 20px auto;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
